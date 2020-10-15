@@ -8,7 +8,7 @@ from torch.utils.data import DataLoader
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True,help="path to input image")
-ap.add_argument('--dest_root', default='./data/maps/', help='Path to destination root', type=str)
+ap.add_argument('--dest_root', default='./data/REDS/train_blur_maps ', help='Path to destination root', type=str)
 args = vars(ap.parse_args())
 path = args["image"]
 # load the input image
