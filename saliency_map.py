@@ -31,7 +31,7 @@ def run(path,root_dir):
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument("-i", "--image", required=True,help="path to input image")
-    ap.add_argument('--dest_root', default='../data/REDS/train_blur_maps/', help='Path to destination root', type=str)
+    ap.add_argument('--dest_root', default='../data/REDS/val_maps/', help='Path to destination root', type=str)
     args = vars(ap.parse_args())
     path = args["image"]
     root_dir = args["dest_root"]
