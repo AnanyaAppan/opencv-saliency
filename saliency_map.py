@@ -3,7 +3,6 @@ import argparse
 import cv2
 import numpy as np
 import os
-from torch.utils.data import DataLoader
 # construct the argument parser and parse the arguments
 
 def run(path,root_dir):
