@@ -1,5 +1,6 @@
 
 for d in ../data/GO_PRO/test/*/sharp/*; do
+  echo "$d"
   if [ -d "$d" ]; then
     echo $d
     dir="$d/*.png"
