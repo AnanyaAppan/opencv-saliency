@@ -1,5 +1,5 @@
 
-for d in ../data/REDS/train_sharp/train_sharp/*; do
+for d in ../data/GO_PRO/test/*/sharp/*; do
   if [ -d "$d" ]; then
     echo $d
     dir="$d/*.png"
